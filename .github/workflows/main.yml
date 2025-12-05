@@ -6,9 +6,9 @@ jobs:
   envi:
     runs-on: ubuntu-latest
     steps: 
-    - name: Execução
-      run: |
-        echo: "Valor XPTO"
+      - name: Execução
+        run: |
+          echo: "Valor XPTO"
       
   
   
