@@ -8,11 +8,11 @@ jobs:
   test-env:
     runs-on: ubuntu-latest
     env:
-      ENV_JOB: Valor test-env
+      ENV_JOB: "Valor test-env"
     steps: 
       - name: Execução
         env:
-          ENV_ACTION: Valor Action - Execução
+          ENV_ACTION: "Valor Action - Execução"
         run: | 
           echo: "${{ENV_WORKFLOW}}" 
           echo: "${{ENV_JOB}}"
@@ -20,7 +20,7 @@ jobs:
       
       - name: Execução 2
         env:
-          ENV_ACTION: Valor Action - Execução 2
+          ENV_ACTION: "Valor Action - Execução 2"
         run: | 
           echo: "${{ENV_WORKFLOW}}"
           echo: "${{ENV_JOB}}"
@@ -29,7 +29,7 @@ jobs:
   test-env-2:
     runs-on: ubuntu-latest
     env:
-      ENV_JOB: Valor test-env-2
+      ENV_JOB: "Valor test-env-2"
     steps: 
       - name: Execução
         run: | 
