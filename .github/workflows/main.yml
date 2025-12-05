@@ -13,7 +13,7 @@ jobs:
       - name: Execução
         env:
           ENV_ACTION: Valor Action - Execução
-        run: | 
+        run:  | 
           echo: "$ENV_WORKFLOW"
           echo: "$ENV_JOB"
           echo: "$ENV_ACTION"
@@ -21,7 +21,7 @@ jobs:
       - name: Execução 2
         env:
           ENV_ACTION: Valor Action - Execução 2
-        run: | 
+        run:  | 
           echo: "$ENV_WORKFLOW"
           echo: "$ENV_JOB"
           echo: "$ENV_ACTION"
