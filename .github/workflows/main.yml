@@ -1,0 +1,14 @@
+name: Using environment variables
+
+on:
+  workflow_dispatch:
+jobs:
+  envi:
+    runs-on: ubuntu-latest
+    steps: 
+    - name: Execução
+      run: |
+        echo: "Valor XPTO"
+      
+  
+  
