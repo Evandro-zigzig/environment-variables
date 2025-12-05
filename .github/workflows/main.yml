@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: Execução
-        run: |
+        run:
           echo: "Valor XPTO"
       
   
